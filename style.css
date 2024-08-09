@@ -1,0 +1,67 @@
+body{
+    background-image: url('./cifvooipg_rf1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(246, 255, 0);
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+    color: darkblue;
+}
+
+input[type="submit"],input[type="reset"]{
+    background-color: green;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+.btn{
+    background-color: yellow;
+}
+.btn1{
+    background-color: red;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
